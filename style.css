@@ -34,7 +34,7 @@ hr {
 input {
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    /* border: none; */
+    border: none;
     writing-mode: horizontal-tb !important;
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
@@ -52,6 +52,7 @@ input {
     cursor: text;
     margin: 0em;
     font: 400 13.3333px Arial;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 #app button {
@@ -60,6 +61,7 @@ input {
     border: none;
     font: 400 13.3333px Arial;
     background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 #output {
