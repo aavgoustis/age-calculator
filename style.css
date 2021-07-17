@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial';
+    color: black;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white;
+    opacity: 0.5; */
+}
+
+header {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    border-color: black;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+#app p {
+    text-align: center;
+}
+
+input {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    /* border: none; */
+    writing-mode: horizontal-tb !important;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+#app button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font: 400 13.3333px Arial;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+}
+
+#output {
+    background-color: white;
+    opacity: 0.98;
+    margin: 1em;
+    padding: 0px 15px;
+    border-radius: 5px;
+}

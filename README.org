@@ -1,0 +1,6 @@
+#+TITLE: Age-calculator
+#+AUTHOR: Aris Avgoustis
+
+My first JavaScript web app. Calculate your age with ease!
+
+Enter your date of birth (as numbers) and let the app do the rest!
